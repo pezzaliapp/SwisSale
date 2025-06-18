@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SwisSale</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <h1>SwisSale</h1>
+  <div class="calculator">
+    <label>Prezzo (€): <input type="number" id="prezzo"></label>
+    <label>Costo (€): <input type="number" id="costo"></label>
+    <label>Margine (%): <input type="number" id="margine"></label>
+    <label>Sconto 1 (%): <input type="number" id="sconto1"></label>
+    <label>Sconto 2 (%): <input type="number" id="sconto2"></label>
+    <label>Quantità: <input type="number" id="quantita" value="1"></label>
+    <button onclick="calcola()">Calcola</button>
+    <div id="risultato"></div>
+  </div>
+</body>
+</html>
